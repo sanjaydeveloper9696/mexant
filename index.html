@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Canvas Header</title>
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+
+    <!-- Bootstrap (use only one consistent version) -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.0/font/bootstrap-icons.css">
+
+    <!-- Google Fonts - Poppins -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+
+    <!-- Custom Styles -->
+    <link rel="stylesheet" href="assets/custom/style.css">
+    <link rel="stylesheet" href="assets/custom/responsive.css">
+    <link rel="stylesheet" href="assets/custom/owl.css">
+
+    <!-- Additional Template Styles -->
+    <link rel="stylesheet" href="assets/css/fontawesome.css">
+    <link rel="stylesheet" href="assets/css/templatemo-574-mexant.css">
+    <link rel="stylesheet" href="assets/css/owl.css"> <!-- Keep only if different from custom/owl.css -->
+    <link rel="stylesheet" href="assets/css/animate.css">
+
+    <!-- Swiper -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css">
+
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><img src="assets/images/logo.png" class="logo-header" alt=""></a>
+            </div>
+
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#about-us">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#testimonials">Testimonials</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+
+            <button class="menu-toggle" aria-label="Toggle menu">
+                <span class="hamburger"></span>
+            </button>
+        </div>
+    </header>
+
+    <div class="canvas-menu">
+        <div class="canvas-header">
+            <button class="canvas-close" aria-label="Close menu">
+                <i class="fas fa-times"></i>
+            </button>
+        </div>
+        <nav class="canvas-nav">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="canvas-overlay"></div>
+
+    <!-- header end  -->
+
+    <!-- slider start  -->
+
+    <div id="businessCarousel" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+
+            <!-- Slide 1 -->
+            <div class="carousel-item active" style="background-image: url('assets/images/slide-01.jpg');">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Get <span style="color: orange;">ready</span> for your business<br>& upgrade <span
+                                style="color: orange;">all aspects</span></h1>
+                        <p>This layout is based on Bootstrap 5. Free to use for professional websites.</p>
+                        <a href="#" class="btn btn-success">Discover More</a>
+                        <a href="#" class="btn btn-danger">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 2 -->
+            <div class="carousel-item" style="background-image: url('assets/images/slide-01.jpg');">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Empower <span style="color: orange;">your team</span><br>with the <span
+                                style="color: orange;">right tools</span></h1>
+                        <p>Professional design, 100% customizable.</p>
+                        <a href="#" class="btn btn-success">Get Started</a>
+                        <a href="#" class="btn btn-danger">Learn More</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Slide 3 -->
+            <div class="carousel-item" style="background-image: url('assets/images/slide-02.jpg');">
+                <div class="overlay"></div>
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1><span style="color: orange;">Drive success</span> with<br>modern business solutions</h1>
+                        <p>Scalable and responsive for all devices.</p>
+                        <a href="#" class="btn btn-success">Explore Now</a>
+                        <a href="#" class="btn btn-danger">Contact Sales</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#businessCarousel" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#businessCarousel" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+        </button>
+    </div>
+
+
+
+
+
+
+
+    <section id="services">
+        <div class="container css-templetet">
+            <div class="row">
+
+                <!-- Item 1 -->
+                <div class="col-md-6 col-lg-6 mb-4">
+                    <div class="service-item">
+                        <i class="fas fa-archive"></i>
+                        <div>
+                            <h4>CSS Templates</h4>
+                            <p>TemplateMo website is the best for you to explore and download free website templates.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 2 -->
+                <div class="col-md-6 col-lg-6 mb-4">
+                    <div class="service-item">
+                        <i class="fas fa-cloud"></i>
+                        <div>
+                            <h4>HTML5 Web Pages</h4>
+                            <p>Templates are based on Bootstrap 5 CSS framework. You can easily adapt or modify based on
+                                your needs.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3 -->
+                <div class="col-md-6 col-lg-6 mb-4">
+                    <div class="service-item">
+                        <i class="fas fa-charging-station"></i>
+                        <div>
+                            <h4>Responsive Designs</h4>
+                            <p>All of our CSS templates are 100% free to use for commercial or business websites.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 4 -->
+                <div class="col-md-6 col-lg-6 mb-4">
+                    <div class="service-item">
+                        <i class="fas fa-suitcase"></i>
+                        <div>
+                            <h4>Mobile and Tablet ready!</h4>
+                            <p>Our HTML CSS templates are well-tested on mobile, tablet, and desktop compatibility.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 5 -->
+                <div class="col-md-6 col-lg-6 mb-4">
+                    <div class="service-item">
+                        <i class="fas fa-archway"></i>
+                        <div>
+                            <h4>Fast Customer Support</h4>
+                            <p>Do not be hesitated to contact us if you have any question or concern about our
+                                templates.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 6 -->
+                <div class="col-md-6 col-lg-6 mb-4">
+                    <div class="service-item">
+                        <i class="fas fa-puzzle-piece"></i>
+                        <div>
+                            <h4>Fully Customizable</h4>
+                            <p>If you have any idea or suggestion about new templates, feel free to let us know.</p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="cta-banner">
+        <div class="container">
+            <div class="row text-center">
+                <div class="col-lg-6 mb-4">
+                    <h2 class="h2-business">Business <em style="color: #43ba7f;">Solutions</em> and <em
+                            style="color: #ff511a;">Crypto</em> Investments</h2>
+
+                </div>
+                <div class="col-lg-6 mb-4">
+                    <div class="cta-buttons">
+                        <button class="cta-btn">Discover More</button>
+                        <button class="cta-btn">Contact Us</button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+
+    <div id="about-us" class="container">
+        <div class="row">
+            <div class="col-lg-6 offset-lg-3">
+                <div class="section-heading">
+                    <h6 style="color: #ff511a;">About Us</h6>
+                    <h4>Know Us Better</h4>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="naccs">
+                    <div class="tabs">
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <div class="menu">
+                                    <div class="active gradient-border"><span>Web Design</span></div>
+                                    <div class="gradient-border"><span>Graphics</span></div>
+                                    <div class="gradient-border"><span>Web Coding</span></div>
+                                </div>
+                                <br>
+
+                            </div>
+
+                            <div class="col-lg-12">
+                                <ul class="nacc">
+                                    <li class="active">
+                                        <div>
+                                            <div class="main-list">
+                                                <span class="title">Project Title</span>
+                                                <span class="title">Budget</span>
+                                                <span class="title">Deadline</span>
+                                                <span class="title">Client</span>
+                                            </div>
+                                            <div class="list-item">
+                                                <span class="item item-title">Website Redesign</span>
+                                                <span class="item">$1,500 to $2,200</span>
+                                                <span class="item">2022 Dec 12</span>
+                                                <span class="item">Web Biz</span>
+                                            </div>
+                                            <div class="list-item">
+                                                <span class="item item-title">Website Renovation</span>
+                                                <span class="item">$2,500 to $3,600</span>
+                                                <span class="item">2022 Dec 10</span>
+                                                <span class="item">Online Ads</span>
+                                            </div>
+                                            <div class="list-item">
+                                                <span class="item item-title">Marketing Plan</span>
+                                                <span class="item">$2,500 to $4,200</span>
+                                                <span class="item">2022 Dec 8</span>
+                                                <span class="item">Web Biz</span>
+                                            </div>
+                                            <div class="list-item last-item">
+                                                <span class="item item-title">All-new Website</span>
+                                                <span class="item">$3,000 to $6,600</span>
+                                                <span class="item">2022 Dec 2</span>
+                                                <span class="item">Web Presence</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <div class="main-list">
+                                                <span class="title">Project Title</span>
+                                                <span class="title">Budget</span>
+                                                <span class="title">Deadline</span>
+                                                <span class="title">Client</span>
+                                            </div>
+                                            <div class="list-item">
+                                                <span class="item item-title">Graphics Redesign</span>
+                                                <span class="item">$500 to $800</span>
+                                                <span class="item">2022 Nov 24</span>
+                                                <span class="item">Media One</span>
+                                            </div>
+                                            <div class="list-item">
+                                                <span class="item item-title">Digital Graphics</span>
+                                                <span class="item">$1,500 to $3,000</span>
+                                                <span class="item">2022 Nov 18</span>
+                                                <span class="item">Second Media</span>
+                                            </div>
+                                            <div class="list-item">
+                                                <span class="item item-title">New Artworks</span>
+                                                <span class="item">$2,200 to $4,400</span>
+                                                <span class="item">2022 Nov 10</span>
+                                                <span class="item">Artwork Push</span>
+                                            </div>
+                                            <div class="list-item last-item">
+                                                <span class="item item-title">Complex Arts</span>
+                                                <span class="item">$1,100 to $2,400</span>
+                                                <span class="item">2022 Nov 3</span>
+                                                <span class="item">Media One</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                    <li>
+                                        <div>
+                                            <div class="main-list">
+                                                <span class="title">Project Title</span>
+                                                <span class="title">Budget</span>
+                                                <span class="title">Estimated</span>
+                                                <span class="title">Technology</span>
+                                            </div>
+                                            <div class="list-item">
+                                                <span class="item item-title">Backend Coding</span>
+                                                <span class="item">$2,000 to $5,000</span>
+                                                <span class="item">2022 Nov 28</span>
+                                                <span class="item">PHP MySQL</span>
+                                            </div>
+                                            <div class="list-item">
+                                                <span class="item item-title">New Web App</span>
+                                                <span class="item">$1,500 to $3,000</span>
+                                                <span class="item">2022 Nov 18</span>
+                                                <span class="item">Python Programming</span>
+                                            </div>
+                                            <div class="list-item">
+                                                <span class="item item-title">Frontend Interactions</span>
+                                                <span class="item">$3,000 to $6,000</span>
+                                                <span class="item">2022 Nov 10</span>
+                                                <span class="item">JavaScripts</span>
+                                            </div>
+                                            <div class="list-item last-item">
+                                                <span class="item item-title">Video Creations</span>
+                                                <span class="item">$1,800 to $4,400</span>
+                                                <span class="item">2022 Nov 3</span>
+                                                <span class="item">Multimedia</span>
+                                            </div>
+                                        </div>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4">
+                <div class="right-content">
+                    <h4>Please tell us about your idea and how you want it to be</h4>
+                    <p>You are allowed to use this template for your websites. You are <b>NOT allowed</b> to
+                        redistribute the template ZIP file on any other template websites.<br><br>Thank you for
+                        downloading and using our templates. Please tell your friends about our website.</p>
+                    <br>
+                    <div class="green-button">
+                        <a href="about-us.html">Discover More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <!-- contact Us sections -->
+
+    <section id="contact">
+
+        <section class="calculator">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-7">
+                        <div class="left-image">
+                            <img src="assets/images/calculator-image.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-lg-5">
+                        <div class="section-heading">
+                            <h6>Your Freedom</h6>
+                            <h4>Get a Financial Plan</h4>
+                        </div>
+                        <form id="calculate" action="" method="get">
+                            <div class="row">
+                                <div class="col-lg-6">
+                                    <fieldset>
+                                        <label for="name">Your Name</label>
+                                        <input type="name" name="name" id="name" placeholder="" autocomplete="on"
+                                            required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-6">
+                                    <fieldset>
+                                        <label for="email">Your Email</label>
+                                        <input type="text" name="email" id="email" pattern="[^ @]*@[^ @]*"
+                                            placeholder="" required="">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <label for="subject">Subject</label>
+                                        <input type="subject" name="subject" id="subject" placeholder=""
+                                            autocomplete="on">
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <label for="chooseOption" class="form-label">Your Reason</label>
+                                        <select name="Category" class="form-select" aria-label="Default select example"
+                                            id="chooseOption" onchange="this.form.click()">
+                                            <option selected="">Choose an Option</option>
+                                            <option type="checkbox" name="option1" value="Online Banking">Online Banking
+                                            </option>
+                                            <option value="Financial Control">Financial Control</option>
+                                            <option value="Yearly Profit">Yearly Profit</option>
+                                            <option value="Crypto Investment">Crypto Investment</option>
+                                        </select>
+                                    </fieldset>
+                                </div>
+                                <div class="col-lg-12">
+                                    <fieldset>
+                                        <button type="submit" id="form-submit" class="orange-button">Submit Now</button>
+                                    </fieldset>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </section>
+
+
+    <!-- testimonial start -->
+
+    <section class="testimonials" id="testimonials">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 offset-lg-3">
+                    <div class="section-heading">
+                        <h6>Testimonials</h6>
+                        <h4>What They Say</h4>
+                    </div>
+                </div>
+                <div class="col-lg-10 offset-lg-1">
+                    <div class="owl-testimonials owl-carousel testimonials-bg">
+                        <div class="item">
+                            <div class="left-text">
+                                <i class="fa fa-quote-left"></i>
+                                <p>“Donec et nunc massa. Nullam non felis dignissim, dapibus turpis semper, vulputate
+                                    lorem.
+                                    Nam volutpat posuere tellus, in porttitor justo interdum nec. Aenean in dapibus
+                                    risus,
+                                    in euismod ligula. Aliquam vel scelerisque elit.”</p>
+                                <h4>David Eigenberg</h4>
+                                <strong style="color: #43ba7f;">CEO of Mexant</strong>
+                            </div>
+                            <div class="right-image">
+                                <img src="assets/images/testimonials-01.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="left-text">
+                                <i class="fa fa-quote-left"></i>
+                                <p>“Etiam id ligula risus. Fusce fringilla nisl nunc, nec rutrum lectus cursus nec. In
+                                    blandit nibh dolor, at rutrum leo accumsan porta. Nullam pulvinar eros porttitor
+                                    risus
+                                    condimentum tempus.”</p>
+                                <h4>Andrew Garfield</h4>
+                                <strong style="color: #43ba7f;">CTO of Mexant</strong>
+                            </div>
+                            <div class="right-image">
+                                <img src="assets/images/testimonials-01.jpg" alt="">
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="left-text">
+                                <i class="fa fa-quote-left"></i>
+                                <p>“Ut dictum vehicula massa, ac pharetra leo tincidunt eu. Phasellus in tristique
+                                    magna, ac
+                                    gravida leo. Integer sed lorem sapien. Ut viverra mauris sed lobortis commodo.”</p>
+                                <h4>George Lopez</h4>
+                                <strong style="color: #43ba7f;">Crypto Manager</strong>
+                            </div>
+                            <div class="right-image">
+                                <img src="assets/images/testimonials-01.jpg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <section class="partners">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-2 col-sm-4 col-6">
+              <div class="item">
+                <img src="assets/images/client-01.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-6">
+              <div class="item">
+                <img src="assets/images/client-01.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-6">
+              <div class="item">
+                <img src="assets/images/client-01.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-6">
+              <div class="item">
+                <img src="assets/images/client-01.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-6">
+              <div class="item">
+                <img src="assets/images/client-01.png" alt="">
+              </div>
+            </div>
+            <div class="col-lg-2 col-sm-4 col-6">
+              <div class="item">
+                <img src="assets/images/client-01.png" alt="">
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer Start -->
+    <footer class="footer text-dark pt-5 pb-4 footer-bg">
+        <div class="container">
+            <div class="row text-center text-md-start">
+
+                <!-- Column 1 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold">Company</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">About Us</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Press</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 2 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold">Support</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Help Center</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                        <li><a href="#">FAQs</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold">Services</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Web Design</a></li>
+                        <li><a href="#">Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 4 -->
+                <div class="col-md-3 mb-4">
+                    <h5 class="fw-bold">Follow Us</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="text-center pt-3 border-top">
+                <p class="mb-0">&copy; 2025 Your Company. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+    <!-- Footer End -->
+
+
+
+
+
+    <script>
+        document.querySelectorAll('.menu div').forEach((tab, index) => {
+            tab.addEventListener('click', () => {
+                document.querySelectorAll('.menu div').forEach(el => el.classList.remove('active'));
+                tab.classList.add('active');
+                document.querySelectorAll('.nacc li').forEach(li => li.classList.remove('active'));
+                document.querySelectorAll('.nacc li')[index].classList.add('active');
+            });
+        });
+    </script>
+
+
+    <script>
+
+        document.addEventListener('DOMContentLoaded', function () {
+            const menuToggle = document.querySelector('.menu-toggle');
+            const canvasMenu = document.querySelector('.canvas-menu');
+            const canvasClose = document.querySelector('.canvas-close');
+            const canvasOverlay = document.querySelector('.canvas-overlay');
+
+            // Toggle canvas menu
+            menuToggle.addEventListener('click', function () {
+                canvasMenu.classList.toggle('open');
+                canvasOverlay.classList.toggle('active');
+                menuToggle.classList.toggle('active');
+            });
+
+            // Close canvas menu
+            canvasClose.addEventListener('click', function () {
+                canvasMenu.classList.remove('open');
+                canvasOverlay.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+
+            // Close when clicking overlay
+            canvasOverlay.addEventListener('click', function () {
+                canvasMenu.classList.remove('open');
+                canvasOverlay.classList.remove('active');
+                menuToggle.classList.remove('active');
+            });
+
+            // Close when clicking a link (optional)
+            const canvasLinks = document.querySelectorAll('.canvas-nav a');
+            canvasLinks.forEach(link => {
+                link.addEventListener('click', function () {
+                    canvasMenu.classList.remove('open');
+                    canvasOverlay.classList.remove('active');
+                    menuToggle.classList.remove('active');
+                });
+            });
+        });
+    </script>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Bundle (choose one) -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Optional: If you prefer using your local Bootstrap instead, comment out the CDN and use the local -->
+    <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+
+    <!-- Other JS Libraries -->
+    <script src="assets/js/isotope.min.js"></script>
+    <script src="assets/js/owl-carousel.js"></script>
+    <script src="assets/js/tabs.js"></script>
+    <script src="assets/js/swiper.js"></script>
+    <script src="assets/js/custom.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,82 @@
+@media (max-width: 768px) {
+
+    .logo-header {
+        width: 130px;
+    }
+
+    .header {
+        padding: 0.5rem 0.7rem;
+    }
+
+    .carousel-item {
+        height: 55vh;
+    
+    }
+
+        .main-nav {
+            display: none;
+        }
+
+        .menu-toggle {
+            display: block;
+        }
+
+        .menu-toggle.active .hamburger {
+            background-color: transparent;
+        }
+
+        .menu-toggle.active .hamburger::before {
+            transform: rotate(45deg);
+            top: 0;
+        }
+
+        .menu-toggle.active .hamburger::after {
+            transform: rotate(-45deg);
+            top: 0;
+        }
+
+        .fa-solid,
+        .fas {
+            font-family: "Font Awesome 6 Free";
+            font-weight: 900;
+            font-size: 35px;
+        }
+
+
+        .carousel-caption h1 {
+            font-size: 1.5rem;
+        }
+
+
+        .menu div {
+
+            padding: 10px 15px;
+        }
+
+        .h2-business {
+            font-weight: bold;
+            text-align: center;
+        }
+
+        .right-content {
+            padding: 0px 0px;
+        }
+
+        .cta-buttons {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+
+        .calculator {
+            padding: 60px 0px 54px 0px;
+
+
+        }
+
+        .partners {
+
+            padding: 20px 0px 20px 0px;
+        }
+    }
