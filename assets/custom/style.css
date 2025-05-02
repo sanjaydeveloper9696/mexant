@@ -480,6 +480,11 @@ services section start */
   .green-button a:hover {
     background: #218838;
   }
+
+  .connect-btn{
+    display: flex;
+    justify-content: center;
+  }
   
 
 

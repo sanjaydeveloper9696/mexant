@@ -53,6 +53,14 @@
         padding: 10px 15px;
     }
 
+    .menu {
+        display: flex;
+        justify-content:center;
+        gap: 15px;
+        margin-bottom: 20px;
+        flex-wrap: wrap;
+    }
+
     .h2-business {
         font-weight: bold;
         text-align: center;
@@ -88,17 +96,17 @@
     }
 
     .testimonials-bg {
-        padding:0px 20px 0px 20px;
+        padding: 0px 20px 0px 20px;
     }
 
 
-.owl-carousel .owl-item img {
-    border-radius: 10px 10px 10px 10px !important;
-}
+    .owl-carousel .owl-item img {
+        border-radius: 10px 10px 10px 10px !important;
+    }
 
-.left-text {
-    text-align:center;
-    width:100%;
-}
+    .left-text {
+        text-align: center;
+        width: 100%;
+    }
 
 }
