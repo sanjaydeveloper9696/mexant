@@ -10,73 +10,95 @@
 
     .carousel-item {
         height: 55vh;
-    
+
     }
 
-        .main-nav {
-            display: none;
-        }
-
-        .menu-toggle {
-            display: block;
-        }
-
-        .menu-toggle.active .hamburger {
-            background-color: transparent;
-        }
-
-        .menu-toggle.active .hamburger::before {
-            transform: rotate(45deg);
-            top: 0;
-        }
-
-        .menu-toggle.active .hamburger::after {
-            transform: rotate(-45deg);
-            top: 0;
-        }
-
-        .fa-solid,
-        .fas {
-            font-family: "Font Awesome 6 Free";
-            font-weight: 900;
-            font-size: 35px;
-        }
-
-
-        .carousel-caption h1 {
-            font-size: 1.5rem;
-        }
-
-
-        .menu div {
-
-            padding: 10px 15px;
-        }
-
-        .h2-business {
-            font-weight: bold;
-            text-align: center;
-        }
-
-        .right-content {
-            padding: 0px 0px;
-        }
-
-        .cta-buttons {
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 30px;
-        }
-
-        .calculator {
-            padding: 60px 0px 54px 0px;
-
-
-        }
-
-        .partners {
-
-            padding: 20px 0px 20px 0px;
-        }
+    .main-nav {
+        display: none;
     }
+
+    .menu-toggle {
+        display: block;
+    }
+
+    .menu-toggle.active .hamburger {
+        background-color: transparent;
+    }
+
+    .menu-toggle.active .hamburger::before {
+        transform: rotate(45deg);
+        top: 0;
+    }
+
+    .menu-toggle.active .hamburger::after {
+        transform: rotate(-45deg);
+        top: 0;
+    }
+
+    .fa-solid,
+    .fas {
+        font-family: "Font Awesome 6 Free";
+        font-weight: 900;
+        font-size: 35px;
+    }
+
+
+    .carousel-caption h1 {
+        font-size: 1.5rem;
+    }
+
+
+    .menu div {
+
+        padding: 10px 15px;
+    }
+
+    .h2-business {
+        font-weight: bold;
+        text-align: center;
+    }
+
+    .right-content {
+        padding: 0px 0px;
+    }
+
+    .cta-buttons {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .calculator {
+        padding: 60px 0px 54px 0px;
+
+
+    }
+
+    .partners {
+
+        padding: 20px 0px 20px 0px;
+    }
+
+
+    .item {
+        display: grid;
+        justify-content: space-between;
+        row-gap: 30px;
+    }
+
+    .testimonials-bg {
+        padding-left:13px;
+    }
+
+
+.owl-carousel .owl-item img {
+    border-radius: 10px 10px 10px 10px !important;
+}
+
+.left-text {
+    text-align:center;
+    width:100%;
+}
+
+}
